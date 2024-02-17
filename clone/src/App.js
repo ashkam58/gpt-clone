@@ -15,7 +15,7 @@ function App() {
             <img src={gptLogo} alt="" className="logo" />
             <span className="brand">AshGPT</span>
           </div>
-          <button className="midbtn">
+          <button className="midBtn">
             <img src={addBtn} alt="" className="addBtn" />
             New Chat
           </button>
@@ -30,7 +30,7 @@ function App() {
             </button>
           </div>
         </div>
-        <div className="lowerside">
+        <div className="lowerSide">
           <div className="listItems"><img src={home} alt="" className="listItemsImg" />Home</div>
           <div className="listItems"><img src={saved} alt="" className="listItemsImg" />Saved</div>
           <div className="listItems"><img src={rocket} alt="" className="listItemsImg" />Upgrade to Pro</div>
