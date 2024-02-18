@@ -36,7 +36,15 @@ function App() {
           <div className="listItems"><img src={rocket} alt="" className="listItemsImg" />Upgrade to Pro</div>
         </div>
       </div>
-      <div className="main"></div>
+      <div className="main">
+        <div className="chat"></div>
+        <div className="chatFotter">
+<div className="inp">
+  <input type="text"  />
+</div>
+
+        </div>
+      </div>
     </div>
   );
 }
