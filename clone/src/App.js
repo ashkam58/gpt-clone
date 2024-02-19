@@ -16,7 +16,7 @@ function App() {
         <div className="upperSide">
           <div className="upperSideTop">
             <img src={gptLogo} alt="" className="logo" />
-            <span className="brand">AshGPT</span>
+            <span className="brand">ashGPT</span>
           </div>
           <button className="midBtn">
             <img src={addBtn} alt="" className="addBtn" />
@@ -50,21 +50,19 @@ function App() {
       </div>
       <div className="main">
         <div className="chats">
-          <div className="chat">
-            <img src={userIcon} alt="" />
+          <div className="chat bot">
+            <img className='chatImg' src={userIcon} alt="" />
             <p className="txt">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
               consequuntur qui modi ratione, rem quidem ipsum. Nihil accusantium
               rem nostrum eos? Obcaecati, at.
             </p>
-
-            <img src={gptImgLogo} alt="" />
-            <p className="txt">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis
-              consequuntur qui modi ratione, rem quidem ipsum. Nihil accusantium
-              rem nostrum eos? Obcaecati, at.
-            </p>
+            
           </div>
+              <div className="chat bot"><img className='chatImg' src={gptImgLogo} alt="" />
+            <p className="txt">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis nostrum praesentium possimus minima hic optio rerum commodi iusto veritatis quod, dolor ipsam sequi aperiam alias est. Vero cumque magni laborum asperiores ullam quisquam placeat ratione repudiandae quaerat, enim ex impedit iste expedita debitis quasi ad rerum modi quae aliquid necessitatibus eligendi cum dolore repellendus dignissimos. Nesciunt omnis perspiciatis dignissimos cum laboriosam sed a minus sapiente veniam dolorum? Et, incidunt! Magni perferendis ad autem. Tenetur, et eius. Soluta voluptates harum laborum architecto eos inventore ipsum atque adipisci esse aliquam sint exercitationem vero ducimus perspiciatis dolorem quis nulla illum, quasi repudiandae mollitia?
+            </p></div>
         </div>
         <div className="chatFooter">
           <div className="inp">
@@ -73,8 +71,9 @@ function App() {
               <img src={sendBtn} alt="Send" />
             </button>
           </div>
+          <p>Chat GPT may produce some of the incorrect results and the knowledge base is upto 2023</p>
         </div>
-        <p>Chat GPT may produce some of the incorrect results and the knowledge base is upto 2023</p>
+        
       </div>
     </div>
   );
