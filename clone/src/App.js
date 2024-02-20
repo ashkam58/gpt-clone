@@ -17,6 +17,7 @@ function App() {
 
   const handleSend = async() =>{
     const res = await sendMsgToOpenAI(input);
+    console.log(res);
   }
 
   return (
